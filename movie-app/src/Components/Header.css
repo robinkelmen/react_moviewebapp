@@ -1,0 +1,75 @@
+.header{
+    color :white;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll; 
+    background-size: 200% 100%;
+    
+
+}
+
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+.header_logo{
+    color: white;
+    object-fit: contain;
+    cursor: pointer;
+    font-family: 'Abel', sans-serif;
+    padding: 10px;
+    padding-left: 40px;
+    margin-left: 20px;
+    font-size: large;
+
+}
+
+.header_icons{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     padding-left: 30px;
+}
+
+.header_icon{
+     display: flex;
+     flex-direction: column;
+     width: 100px;
+     cursor: pointer;
+
+}
+.header_icon--active > p{
+    display: inline-flex !important;
+}
+.header_icon:hover > p{
+    display: inline-flex;
+}
+.header_icon > p{
+    display: none;
+    font-size:x-small;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_icon > .MuiSvgIcon-root{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    
+}
+.search {
+   
+    background-color: transparent !important;
+    top: 10px;
+    font-family: 'Abel', sans-serif;
+   
+    border: none;
+  
+}
+.search{
+    color: white !important;
+}

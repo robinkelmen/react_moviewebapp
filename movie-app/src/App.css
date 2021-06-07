@@ -1,0 +1,25 @@
+*{
+
+  margin: 0
+}
+
+.App{
+  width: 100vw;
+background: linear-gradient(90deg, rgba(0,6,36,1) 0%, rgba(44,77,139,1) 76%, rgba(97,185,203,1) 100%);
+background-size: 200% 100%;
+    animation: grad 10s ease-in-out infinite;
+} 
+
+@keyframes grad {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }

@@ -38,16 +38,17 @@
      flex-direction: column;
      width: 100px;
      cursor: pointer;
+     color: white !important;
 
 }
 .header_icon--active > p{
     display: inline-flex !important;
 }
 .header_icon:hover > p{
-    display: inline-flex;
+    display: inline-flex !important;
 }
 .header_icon > p{
-    display: none;
+    display: none !important;
     font-size:x-small;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -72,4 +73,29 @@
 }
 .search{
     color: white !important;
+}
+
+.rating{
+    display:inline-flex;
+    background-color: grey;
+    padding: 2px;
+    font-size: x-small;
+    font-family: 'Abel', sans-serif;
+    opacity: .7;
+    border-radius: 2px;
+
+    
+    
+}
+
+.rating > span{
+    
+    margin-right: auto;
+    display:contents;
+    opacity: 1 !important;
+}
+
+.profile{
+    width: 100vw;
+    height: 100vh;
 }
